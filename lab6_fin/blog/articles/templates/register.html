@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+{% load static from staticfiles %}
+<link rel="stylesheet" href="{% static "css1/article1.css" %}">
+<body>
+  <div class="register">
+    <img src="{% static "im/logo.png" %}" alt="Hi!"  height="56"/>
+    <h2>Регистрация</h2>
+      <form method="POST">
+      {% csrf_token %}
+      <div class="reg">
+       <div>
+        <label for="id_username">Имя:</label><br>
+        <input type="text" name="username" maxlength="150" placeholder="имя" autofocus required id="id_username"></div>
+        <div>
+       <label for="id_email">Email адрес:</label><br>
+       <input type="email" name="email" placeholder="email" maxlength="254" id="id_email">
+     </div>
+     <div>
+       <label for="id_password1">Пароль:</label><br>
+       <input type="password" name="password1" placeholder="пароль" required id="id_password1">
+     </div>
+     <div>
+       <label for="id_password2">Введите повторно пароль:</label><br>
+       <input type="password" name="password2" placeholder="повторно пароль" required id="id_password2">
+     </div>
+   <button type="submit">Зарегистрировать</button>
+ </div>
+  </form>
+  {{ form.errors }}
+  </div>
+  </body>
+</html>

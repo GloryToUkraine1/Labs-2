@@ -1,0 +1,149 @@
+body {
+background: #1abc9c;
+font-family: Tahoma, Arial, sans-serif;
+color: #ffffff;
+}
+
+.archive1 .header img {
+display: block;
+width: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+.archive1 .archive {
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+.archive1 .post-title a {
+color: #ffffff;
+}
+.archive1 .article-author {
+width: 50%;
+float: left;
+}
+.archive1 .article-created-date {
+text-align: right;
+}
+.article .archive {
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+.article .post-title a {
+color: #ffffff;
+}
+.article .header img {
+display: block;
+width: 150px;
+margin-left: auto;
+margin-right: auto;
+float: left;
+}
+.article .article-author {
+width: 50%;
+float: left;
+}
+.article .article-created-date {
+text-align: right;
+}
+.article .archive h3, a {
+color: #ffffff;
+text-align: right;
+}
+.login img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: center;
+}
+.login h2 {
+text-align: center;
+}
+.login {
+margin-left: auto;
+margin-right: auto;
+width: 510px;
+margin-top:70px;
+}
+.login .btn {
+background: #ccc;
+color: white;
+font-size: 12pt;
+height: 30px;
+width: 70px;
+}
+.register {
+margin-top:70px;
+}
+.register h2 {
+text-align: center;
+}
+.reg {
+width: 56%;
+float: right;
+}
+.register .reg button {
+margin-top:20px;
+background: #ccc;
+color: white;
+font-size: 12pt;
+height: 30px;
+width: 161px;
+}
+.register img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: center;
+}
+
+.CreatePost {
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+margin-top:70px;
+}
+.CreatePost h1 {
+text-align: center;
+}
+.CreatePost img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: center;
+}
+.CreatePost .btn {
+margin-top:20px;
+background: #ccc;
+color: white;
+font-size: 12pt;
+height: 30px;
+width: 161px;
+}
+.CreatePost .input_name {
+height: 50px;
+width: 500px;
+}
+.CreatePost .input_text {
+height: 300px;
+width: 500px;
+}
+.archive1 .archive h3, a {
+color: #ffffff;
+text-align: right;
+}
+.article .archive p {
+color: #ffffff;
+word-wrap: break-word;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+.archive1 .archive p {
+color: #ffffff;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+}

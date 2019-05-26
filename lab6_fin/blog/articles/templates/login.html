@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+{% load static from staticfiles %}
+<link rel="stylesheet" href="{% static "css1/article1.css" %}">
+	</head>
+<div class="login">
+	<img src="{% static "im/logo.png" %}" alt="Hi!"  height="56"/>
+	<h2>Авторизация</h2>
+	<form action="" method="POST">
+    {{ form }}
+    {% csrf_token %}
+    <input type="submit" class="btn btn-primary" value="Войти"/>
+	</form>
+</div>
+</html>
